@@ -1,0 +1,77 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+  <title>CSS3_seascape</title>
+  <meta name="description" content="website description" />
+  <meta name="keywords" content="website keywords, website keywords" />
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+  <link rel="stylesheet" type="text/css" href="css/style.css" />
+  <!-- modernizr enables HTML5 elements and feature detects -->
+  <script type="text/javascript" src="js/modernizr-1.5.min.js"></script>
+</head>
+
+<body>
+  <div id="main">
+    <header>
+      <div id="logo">
+        <div id="logo_text">
+          <!-- class="logo_colour", allows you to change the colour of the text -->
+          <h1><a href="index.html"><span class="logo_colour">市村駿汰のホームページ</span></a></h1>
+          <h2>Shunta ICHIMURA's Homepage</h2>
+        </div>
+      </div>
+      <nav>
+        <ul class="sf-menu" id="nav">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="profile.html">Profile</a></li>
+          <li class="selected"><a href="researchinterest.html">Research Interest</a></li>
+          <li><a href="publications.html">Publications</a></li>
+          <li><a href="#">Specials</a>
+            <ul>
+              <li><a href="gallery.html">Gallery</a></li>
+              <li><a href="links.html">Links</a></li>
+            </ul>
+          </li>
+          <li><a href="englishindex.html">English Page</a></li>
+        </ul>
+      </nav>
+    </header>
+    <div id="site_content">
+      <div class="content">
+        <h1>研究内容</h1>
+        <h2>フィールドワークと化石の観察・分析を通して昔の地球環境を当時の生物目線で復元しています</h2>
+        <p></p>
+        <h4>キーワード</h4>
+        <p>二枚貝・硬組織編年学・安定酸素同位体比・成長線・白亜紀・ペルム紀末の大量絶滅</p>
+        <h3>二枚貝化石の成長線と化学分析を通した白亜紀中期の古環境復元</h3>
+        <div class="right">
+          <figure><img height=200 src="images/cretashell.jpg"><figcaption>白亜紀二枚貝<i>Aphrodina pseudoplana</i>の断面<br>(Ichimura et al., 2024より)</figcaption></figure>
+        </div>
+        <p>白亜紀中期(約1.2億-8300万年前)は大気CO<sub>2</sub>濃度が非常に高い超温室地球と呼ばれる時代でした。そのため、白亜紀中期の地球環境は将来を含む地球温暖化が進行した地球環境の解明に使うことができます。私は、白亜紀中期の浅海水温を季節スケールで復元するために、二枚貝化石の成長線(日輪など)の解析や殻の安定酸素同位体比(δ<sup>18</sup>O)分析に取り組んでいます。白亜紀のような古い時代の二枚貝化石は化石化の過程で殻が溶けたり別の鉱物に置き換わることで古環境の記録を失っている例が多いため、私の研究は野外調査で研究に使えそうな保存が良い貝化石の採集から始まります。</p>
+        <h4>関連する研究成果</h4>
+        <li><a href="https://www.frontiersin.org/articles/10.3389/fmars.2024.1324436/full">Ichimura et al. (2024 Front. Mar. Sci.)</a>　<a href="#">論文の解説はこちら！(現在工事中)</a></li>
+        <p> </p>
+        <h3>上村層の化石に基づくペルム紀末の大量絶滅時の遠洋浅海環境の解明</h3>
+        <p>ペルム紀末(約2.52億年前)には海洋生物種の9割近くの種が短期間に死滅したペルム紀末の大量絶滅が起こりました。当時の浅海でできた地層の多くは大陸近海のものですが、遠洋の浅海でできた地層が宮崎県高千穂町にある上村(かむら)層です。私は、上村層で地質調査を行って露頭を詳細に記載するとともに、持ち帰った岩石から化石を抽出して当時の環境を復元しています。現在は、大量絶滅に伴って海洋酸性化が海洋の広域で起きたかに着目して研究しています。</p>
+        <h4>関連する研究成果</h4>
+        <li>現在進行中</li>
+      </div>
+    </div>
+    <footer>
+      <p>Copyright &copy; CSS3_seascape | <a href="http://www.css3templates.co.uk">design from css3templates.co.uk</a></p>
+    </footer>
+  </div>
+  <p>&nbsp;</p>
+  <!-- javascript at the bottom for fast page loading -->
+  <script type="text/javascript" src="js/jquery.js"></script>
+  <script type="text/javascript" src="js/jquery.easing-sooper.js"></script>
+  <script type="text/javascript" src="js/jquery.sooperfish.js"></script>
+  <script type="text/javascript" src="js/image_fade.js"></script>
+  <script type="text/javascript">
+    $(document).ready(function() {
+      $('ul.sf-menu').sooperfish();
+    });
+  </script>
+</body>
+</html>
