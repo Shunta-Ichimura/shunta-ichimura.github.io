@@ -1,0 +1,89 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+  <title>CSS3_seascape</title>
+  <meta name="description" content="website description" />
+  <meta name="keywords" content="website keywords, website keywords" />
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+  <link rel="stylesheet" type="text/css" href="css/style.css" />
+  <!-- modernizr enables HTML5 elements and feature detects -->
+  <script type="text/javascript" src="js/modernizr-1.5.min.js"></script>
+</head>
+
+<body>
+  <div id="main">
+    <header>
+      <div id="logo">
+        <div id="logo_text">
+          <!-- class="logo_colour", allows you to change the colour of the text -->
+          <h1><a href="index.html"><span class="logo_colour">市村駿汰のホームページ</span></a></h1>
+          <h2>Shunta ICHIMURA's Homepage</h2>
+        </div>
+      </div>
+      <nav>
+        <ul class="sf-menu" id="nav">
+          <li class="selected"><a href="index.html">Home</a></li>
+          <li><a href="profile.html">Profile</a></li>
+          <li><a href="researchinterest.html">Research Interest</a></li>
+          <li><a href="publications.html">Publications</a></li>
+          <li><a href="#">Specials</a>
+            <ul>
+              <li><a href="gallery.html">Gallery</a></li>
+              <li><a href="links.html">Links</a></li>
+            </ul>
+          </li>
+          <li><a href="englishindex.html">English Page</a></li>
+        </ul>
+      </nav>
+    </header>
+    <div id="site_content">
+      <div class="gallery">
+        <ul class="images">
+          <li class="show"><img width="950" height="300" src="images/ImageA.JPG" alt="photo_one" /></li>
+          <li><img width="950" height="300" src="images/imageB.jpg" /></li>
+        </ul>
+      </div>
+      <div id="sidebar_container">
+        <div class="sidebar">
+          <h3>Latest News</h3>
+          <h4>ホームページを開設しました！</h4>
+          <h5>2024年7月28日</h5>
+        </div>
+        <div class="sidebar">
+          <h3>Useful Links</h3>
+          <ul>
+            <li><a href="https://researchmap.jp/shuntaichimura">Researchmap</a></li>
+            <li><a href="https://www.researchgate.net/profile/Shunta-Ichimura">Researchgate</a></li>
+            <li><a href="https://orcid.org/my-orcid?orcid=0009-0004-1966-9238">ORCID(0009-0004-1966-9238)</a></li>
+            <li><a href="https://tayo.jp/users/RLUQOwK3hWTL8QNDIqqBPz6glP83">Tayo</a></li>
+            <li><a href="https://x.com/SIchimura2">X(Twitter)</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="content">
+        <div class="right">
+          <figure><img height=400 src="images/top.jpg"><figcaption>2020年3月　ネパールでリップルマークに<br>横たわる</figcaption></figure>
+        </div>
+        <h3>氏名: 市村駿汰　(Shunta ICHIMURA)</h3>
+        <h3>所属・身分: 名古屋大学大学院環境学研究科　地球環境科学専攻　地球惑星科学系　地質・地球生物学講座　生物圏進化学研究室<br>博士後期課程2年</h3>
+        <h3>専門分野: 古生物学(二枚貝)、地質学、古環境学</h3>
+      </div>
+    </div>
+    <footer>
+      <p>Copyright &copy; CSS3_seascape | <a href="http://www.css3templates.co.uk">design from css3templates.co.uk</a></p>
+    </footer>
+  </div>
+  <p>&nbsp;</p>
+  <!-- javascript at the bottom for fast page loading -->
+  <script type="text/javascript" src="js/jquery.js"></script>
+  <script type="text/javascript" src="js/jquery.easing-sooper.js"></script>
+  <script type="text/javascript" src="js/jquery.sooperfish.js"></script>
+  <script type="text/javascript" src="js/image_fade.js"></script>
+  <script type="text/javascript">
+    $(document).ready(function() {
+      $('ul.sf-menu').sooperfish();
+    });
+  </script>
+</body>
+</html>
